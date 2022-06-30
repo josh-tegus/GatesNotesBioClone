@@ -1,0 +1,61 @@
+*{
+    background-color: #FFFF;
+}
+body {
+    overflow: scroll;
+}
+#Title {
+    width: 100%; 
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900; 
+    letter-spacing: -1px;
+    font-size: xx-large; 
+}
+#Moveable {
+    display: block;
+    opacity: 0.0; 
+    position: absolute; 
+    font-family: sans-serif;
+    text-decoration: antiquewhite;
+    background-color: black;
+    right: 0px; 
+}
+#ColorBlockOne {
+    display: block; 
+    background-color: #fdbd12; 
+    background-image: url("https://www.gatesnotes.com/Content/bio/img/edgebottom01.png");
+    background-position: bottom left;
+    background-repeat: repeat-x; 
+    height: 667px;
+    top: -20px;
+}
+#ColorBlockTwo {
+    display: block; 
+    background-color: #4db99a;
+    background-image: url("https://www.gatesnotes.com/Content/bio/img/edgetop01.png"),url("https://www.gatesnotes.com/Content/bio/img/edgebottom02.png");
+    background-position: top,bottom;
+    background-repeat: repeat-x,repeat-x;
+    height: 594px;
+    top: 1300px; 
+    margin-top: 1000px; 
+}
+#ColorBlockThree {
+    display: block; 
+    background-color: #fb6906;
+    background-image: url("https://www.gatesnotes.com/Content/bio/img/edgetop02.png"),url("https://www.gatesnotes.com/Content/bio/img/edgebottom03.png");
+    background-position: top,bottom;
+    background-repeat: repeat-x,repeat-x;
+    height: 638px;
+    top: 2400px;
+    margin-top: 750px;  
+}
+#ColorBlockFour {
+    background-color: #4bc1c4;
+    background-image: url("https://www.gatesnotes.com/Content/bio/img/edgetop01.png"),url("https://www.gatesnotes.com/Content/bio/img/edgebottom02.png");
+    background-position: top,bottom;
+    background-repeat: repeat-x,repeat-x;
+    top: 3650px;
+    height: 576px;
+    margin-top: 1500px; 
+}

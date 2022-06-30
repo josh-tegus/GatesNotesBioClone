@@ -1,0 +1,4 @@
+- Clamp horizontal movment of element. 
+- Fade in element as it scrolls in. 
+- Start horizontal movement and fade in based on vertical scroll 
+position in visible window. 
